@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- NLP & Data (исключаем тяжелые файлы и кэш) ---
+# Если вы скачиваете модели или датасеты в папку проекта:
+data/
+datasets/
+models/
+*.bin
+*.pth
+*.pt
+*.pkl
+*.jsonl
+nltk_data/
+
+# --- Environment & Secret ---
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- macOS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# --- IDE Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+logs/
+*.log
